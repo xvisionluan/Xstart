@@ -1,0 +1,22 @@
+{
+  "name": "XvisionBoilerplate",
+  "version": "0.0.0",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "@mocallu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "install": {
+    "path": "src/libs/"
+  },
+  "devDependencies": {
+    "bootstrap-sass-official": "~3.3.1"
+  }
+}

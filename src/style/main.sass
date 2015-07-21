@@ -1,0 +1,21 @@
+/* Compass não é mais um arquivo .scss, precisa estar instalado localmente pra ser importado */
+@import "compass"
+
+/* Importa as pastas */
+@import "bootstrap/bootstrap.scss"
+
+/* Toda a estrutura do projeto */
+@import "estrutura/**/*"
+
+/* Media queries, para projetos responsivos */
+/* Telas pequenas (768px pra cima) */
+@media (min-width: $screen-sm-min)
+  @import "media-queries/sm/**/*"
+
+/* Telas medias (992px pra cima) */
+@media (min-width: $screen-md-min)
+  @import "media-queries/md/**/*"
+
+/* Telas Grandes (1200px pra cima) */
+@media (min-width: $screen-lg-min)
+  @import "media-queries/lg/**/*"
